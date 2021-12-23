@@ -1,0 +1,30 @@
+{
+  "name": "advanced-react",
+  "version": "1.0.0",
+  "description": "Advanced React",
+  "main": "lib/server.js",
+  "repository": "https://github.com/ArunKumarGuduri/advanced-react.git",
+  "author": "Arun Kumar G <aguduri@wsgc.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node lib/server.js"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^3.1.6",
+    "eslint": "^8.5.0",
+    "eslint-plugin-react": "^7.28.0",
+    "express": "^4.17.2"
+  }
+}
