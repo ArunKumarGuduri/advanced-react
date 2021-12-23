@@ -7,7 +7,8 @@
   "author": "Arun Kumar G <aguduri@wsgc.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node lib/server.js"
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "webpack": "webpack -w"
   },
   "babel": {
     "presets": [
@@ -19,12 +20,20 @@
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "ejs": "^3.1.6",
     "eslint": "^8.5.0",
     "eslint-plugin-react": "^7.28.0",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.65.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
   }
 }
