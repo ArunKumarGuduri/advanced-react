@@ -1,6 +1,3 @@
 node_modules/
-public/vendor.js
-public/app.js
-public/bundle.js
+public/
 coverage/
-public/bundle.js
