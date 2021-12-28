@@ -7,7 +7,7 @@
   "author": "Arun Kumar G <aguduri@wsgc.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node lib/server.js",
+    "dev": "NODE_PATH=./lib nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -w",
     "test": "jest --watch"
   },
