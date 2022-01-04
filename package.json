@@ -4,7 +4,7 @@
   "description": "Advanced React",
   "main": "lib/server.js",
   "repository": "https://github.com/ArunKumarGuduri/advanced-react.git",
-  "author": "Arun Kumar G <aguduri@wsgc.com>",
+  "author": "Arun Kumar G <arunkumargudoori@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "NODE_PATH=./lib nodemon --exec babel-node lib/server.js",
@@ -19,6 +19,7 @@
     ]
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^7.1.5",
