@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "NODE_PATH=./lib nodemon --exec babel-node lib/server.js",
     "webpack": "webpack -w",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "verify-tests": "jest --coverage"
   },
   "babel": {
     "presets": [
